@@ -1,0 +1,34 @@
+{
+  "name": "task-request",
+  "version": "0.1.0",
+  "main": "lib/request.js",
+  "description": "Read files with request.",
+  "homepage": "https://github.com/taskjs/task-request",
+  "bugs": "https://github.com/taskjs/task-request/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-request"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task",
+    "request"
+  ],
+  "dependencies": {
+    "execution": "^0.1.0",
+    "record": "^0.2.0",
+    "request": "^2.34.0",
+    "lodash": "^2.4.1"
+  },
+  "scripts": {
+    "test": "node test/request_test"
+  }
+}
